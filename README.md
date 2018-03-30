@@ -15,3 +15,13 @@ st->op-> cond
 cond(yes)->e
 cond(no)->op
 ```
+### 流程图
+```flow
+st=>start: Start
+e=>end: end
+op=>operation: My operation
+cond=>condition: Yes or No?
+st->op->cond
+cond(yes)->e
+cond(no)->op
+```
